@@ -61,3 +61,10 @@ Precision@1%: 0.8165
 Top-k threshold: 0.9925
 
 ---
+👤 Author
+Manmeet Singh
+Fintech Analyst & Data Analyst | Fraud Detection · BI Automation · Risk Intelligence
+📍 Indore, India
+🔧 Skilled in Power BI, Python, SQL, R, and advanced Excel
+🧠 Specializes in behavioral analytics, fraud scoring, and reporting automation
+🔗 LinkedIn Profile https://www.linkedin.com/in/manmeet-singh-182469233/
