@@ -47,12 +47,12 @@ fraud-detection-pipeline/
 1. Clone the repo  
 2. Place your dataset in the `data/` folder  
 3. Run the pipeline:
+4. Alerts will be saved to alerts.csv
+5. Metrics will be printed and optionally saved to logs/model_metrics.txt
 
 ```bash
 python run_fraud_pipeline.py
 
-4. Alerts will be saved to alerts.csv
-5. Metrics will be printed and optionally saved to logs/model_metrics.txt
 ---
 Sample Output
 PR-AUC: 0.5718
