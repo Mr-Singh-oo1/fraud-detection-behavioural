@@ -1,0 +1,51 @@
+📊 Model Evaluation Summary
+===========================
+
+Run Timestamp: 2025-09-28 12:33 IST
+Dataset Used: synthetic_transactions.csv
+Model Used: xgb_behavioral_pipeline.joblib
+
+--- Performance Metrics ---
+PR-AUC: 0.5718
+ROC-AUC: 0.5274
+Precision@1%: 0.8165
+Top-k threshold: 0.9925
+
+Confusion Matrix:
+True Positives (TP): [fill from script]
+False Positives (FP): [fill from script]
+False Negatives (FN): [fill from script]
+True Negatives (TN): [fill from script]
+
+--- Data Quality Snapshot ---
+Total Records: 200080
+Missing Values: 95235 across 2 columns
+Duplicate Transactions: 80
+Unique Users: 5000
+Unique Devices: 64914
+Fraud Rate: 0.5293
+
+--- Feature Distribution ---
+amount                    min=3.60  max=15246.85  mean=296.54
+typing_speed              min=0.00  max=0.00     mean=0.00
+nav_speed                 min=0.00  max=0.00     mean=0.00
+geo_distance_km           min=0.00  max=15463.43 mean=385.43
+fraud_risk_score_weighted min=4.00  max=8.00     mean=4.62
+
+--- Top 5 Flagged Alerts ---
+transaction_id                            user_id  amount  merchant_category  model_score  fraud_risk_score_weighted
+7ae6a220-01f1-4963-902f-8d5ddc86a186         513    88.75  fuel                0.997880     6
+e9608552-f70e-4afc-85f1-03375f831e19        4097   102.00  fuel                0.997700     6
+69c8a44d-97c1-456e-84c8-4a856d63b240         894   114.59  food                0.997588     6
+cbf054d1-679f-41b0-a0e3-5b7ba9a1fd25        4883   152.74  food                0.997548     6
+8cea7cb8-e432-4600-a914-9a0ecbd0d646        1181   306.99  utilities           0.997513     6
+
+--- Alert Summary ---
+Total Alerts Flagged: 88091
+Alert Fraud Rate: 0.5516
+
+--- Notes ---
+- Model shows strong prioritization (Precision@1% = 81.65%) despite weak ROC-AUC.
+- Top-k threshold is high, indicating confident scoring.
+- Velocity features failed to merge — consider fixing aggregation logic.
+- Typing and nav speed missing — may affect behavioral scoring.
