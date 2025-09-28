@@ -16,18 +16,23 @@ This project implements a robust fraud detection pipeline using behavioral, velo
 ---
 
 ## 📁 Folder Structure
-fraud-detection-pipeline/ 
-├── run_fraud_pipeline.py 
-├── requirements.txt 
-├── README.md 
+fraud-alert-analytics/   
+├── reports/ 
+│   └── *.png, *.txt 
 ├── data/ 
-│   └── sample_transactions.csv 
-├── artifacts/ 
-│   └── xgb_behavioral_pipeline.joblib 
-├── logs/ 
-│   └── model_metrics.txt 
-├── alerts.csv
-
+│   └── alerts.csv
+│   └── synthetic_transaction.parquet
+|── docs/ 
+|   └── architecture.md
+|── logs/ 
+|   └── model_metrics.txt
+|── artifacts/ 
+|   └── run_behavioural_fraud_pipeline.py
+├── exploratory_analysis.ipynb
+├── README.MD
+├── requirements.txt
+├── scripts
+├── xgb_behavioral_pipeline.joblib
 
 ---
 
