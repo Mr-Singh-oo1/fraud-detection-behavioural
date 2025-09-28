@@ -1,0 +1,4 @@
+✅ Exploratory Analysis Complete
+Fraud Rate: 52.93%
+Missing Columns: ['country', 'fraud_type']
+Consider engineering more behavioral features or fixing velocity merge issues.

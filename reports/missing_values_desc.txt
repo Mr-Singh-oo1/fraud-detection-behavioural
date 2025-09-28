@@ -1,0 +1,3 @@
+Missing Values by Column
+
+Shows which columns have missing data and how much. Useful for data quality checks.

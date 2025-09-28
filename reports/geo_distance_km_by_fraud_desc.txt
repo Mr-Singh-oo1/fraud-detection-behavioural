@@ -1,0 +1,3 @@
+geo_distance_km by Fraud Status
+
+Shows how geo distance km differs between fraud and non-fraud transactions.

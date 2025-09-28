@@ -1,0 +1,3 @@
+unique_devices_30d Distribution
+
+Shows how unique devices 30d varies across transactions.

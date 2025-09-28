@@ -1,0 +1,3 @@
+Amount Over User Avg by Fraud Status
+
+Shows how far a transaction deviates from the user's average amount.

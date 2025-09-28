@@ -1,0 +1,3 @@
+Amount by Fraud Status
+
+Compares transaction amounts between fraud and non-fraud cases.

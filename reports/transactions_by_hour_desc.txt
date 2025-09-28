@@ -1,0 +1,3 @@
+Transactions by Hour
+
+Shows transaction volume by hour of day. Useful for identifying peak fraud windows.

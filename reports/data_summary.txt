@@ -1,0 +1,7 @@
+📊 Data Summary
+Total Records: 200000
+Fraud Rate: 52.93%
+Missing Values:
+country        1053
+fraud_type    94149
+dtype: int64

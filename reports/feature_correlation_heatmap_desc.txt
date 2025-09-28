@@ -1,0 +1,3 @@
+Feature Correlation Heatmap
+
+Shows how numeric features correlate with each other. Useful for spotting redundancy or strong fraud signals.
